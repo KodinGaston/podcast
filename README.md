@@ -112,5 +112,5 @@ This project has been an excellent opportunity to apply **modern web technologie
 
 📧 **Email:** [Contact@KodinGaston.com](mailto:Contact@KodinGaston.com)  
 🌍 **Website:** [www.kodingaston.com](https://www.kodingaston.com)  
-
+4️⃣ **Here ► the podcast online: https://kodingaston.github.io/podcast/**
 ### 💡 *KodinGaston ~ Kind Regards!* ☺
