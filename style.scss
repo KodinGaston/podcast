@@ -98,6 +98,10 @@ a {
     }
   }
 }
+.podcast-btn {
+  margin: 5px;
+  padding: 5px;
+}
 
 @media screen and (max-width: 600px) {
   body {
@@ -146,17 +150,14 @@ a {
       flex-direction: row;
       white-space: nowrap;
     }
-
   .section__podlist-pods {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-
   .section__article-innerarticle {
     flex-direction: row;
   }
 }
-
 @media screen and (min-width: 1000px) {
   .section__podlist-pods {
     display: grid;

@@ -10,5 +10,4 @@ export function toggleLightMode() {
     toggleLightModeButton.innerHTML = 'Byt till ljust läge';      
   }
 }
-
 export default toggleLightMode;
