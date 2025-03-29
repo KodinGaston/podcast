@@ -90,6 +90,11 @@ a {
   background-color: $dark-background;
   color: $secondary-color;
 
+  .section__podlist-button {
+    background-color: turquoise; // O cualquier otro color que quieras en darkmode
+    color: black;
+  }
+
   a {
     color: $secondary-color;
 
@@ -98,6 +103,7 @@ a {
     }
   }
 }
+
 .podcast-btn {
   margin: 5px;
   padding: 5px;
