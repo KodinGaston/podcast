@@ -5,9 +5,9 @@ toggleLightModeButton.addEventListener('click', toggleLightMode);
 export function toggleLightMode() {
   document.body.classList.toggle('darkmode');
   if (document.body.classList.contains('darkmode')) {
-    toggleLightModeButton.innerHTML = 'Switch to Dark Mode';      
+    toggleLightModeButton.innerHTML = 'Byt till mörkt läge';      
   } else {
-    toggleLightModeButton.innerHTML = 'Switch to Light Mode';      
+    toggleLightModeButton.innerHTML = 'Byt till ljust läge';      
   }
 }
 

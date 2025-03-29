@@ -15,16 +15,13 @@ body {
   background-color: $secondary-color;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
-
 }
-
 .section__article-innerarticle {
   display: flex;
   flex-direction: row;
   margin-bottom: 2rem;
   align-items: flex-start;
 }
-
 .section__article-div {
 .section__article-div {
     display: flex;
@@ -32,12 +29,14 @@ body {
     margin-top: 0;
   }
 }
-
 .section__podlist-button.toggle-btn {  
   margin-bottom: 1.5rem;
 }
-.section__podlist-button {
+.section__podlist-button {  
   background-color: aqua;
+  color:black;
+  font-weight: bold;
+  border: none;
   width: 100%;
   max-width: 15%;
   height: auto;
@@ -47,14 +46,20 @@ body {
   display: flex;
   flex-direction: row;
   white-space: nowrap;
-  margin: 0 auto;    
+  margin: 0 auto;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 5px 4px 10px darkblue;
+  border-radius: 10px;    
 }
-.section__podlist-button:hover {
-  background-color:rgba(0,0,0);
+.section__podlist-button:hover {  
+  box-shadow: 4px 4px 5px rgba(0,0,0,0.4);
   transition: background-color 0.3s ease;
-  color:aqua;
-  }
-
+  color:rgb(0, 187, 255);
+  transform: translateY(4px);
+  transition: all 0.3s ease;
+  background-color: black;
+  }  
 img {
   margin: 0.5rem;
 }
@@ -63,7 +68,6 @@ h1, h2, p {
   padding: 0;
   margin: 0;
 }
-
 h1 {
   font-size: 1.5rem;
 }
@@ -71,11 +75,9 @@ h1 {
 h2 {
   font-size: 1.25rem;
   }
-
 p {
   font-size: 1rem;
 }
-
 a {
   color: $primary-color;
   cursor: pointer;
@@ -84,7 +86,6 @@ a {
     color: rgb(169, 81, 251);
   }
 }
-
 .darkmode {
   background-color: $dark-background;
   color: $secondary-color;
