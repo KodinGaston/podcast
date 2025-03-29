@@ -91,13 +91,12 @@ a {
   color: $secondary-color;
 
   .section__podlist-button {
-    background-color: turquoise; // O cualquier otro color que quieras en darkmode
+    background-color: turquoise; 
     color: black;
   }
 
   a {
     color: $secondary-color;
-
     &:active, &:hover {
       color: $highlight-color;
     }
